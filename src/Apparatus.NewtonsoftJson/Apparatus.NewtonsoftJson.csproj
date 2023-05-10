@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Apparatus.NewtonsoftJson</AssemblyName>
+    <GenerateAssemblyFileVersionAttribute>False</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyVersionAttribute>False</GenerateAssemblyVersionAttribute>
+    
+    <Authors>Ashish Agrawal</Authors>
+    <Company>Toshal Infotech</Company>
+    <Description>
+      A library containing various extension methods for dealing with JSON.
+    </Description>
+    <Copyright>Toshal Infotech</Copyright>
+    <RepositoryUrl>http://toshalgitserver/Toshal-Common/apparatus.git</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    
+    <PackageId>Apparatus.NewtonsoftJson</PackageId>
+    <PackageTags>Extensions, Helpers, JSON</PackageTags>
+    <PackageProjectUrl>http://www.toshalinfotech.com</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <PackageReleaseNotes>
+      Moving repository from private space to public space.
+    </PackageReleaseNotes>
+
+    <Version>1.0.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>

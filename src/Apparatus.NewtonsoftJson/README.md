@@ -1,0 +1,1 @@
+Gives quick ToJson shortcut on objects, convert them using Newtonsoft.Json library.
